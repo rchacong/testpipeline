@@ -6,11 +6,11 @@
         },
         "cpCode": {
             "type": "cpCode",
-            "default": null
-        },
-        "sureRouteTestObject": {
-            "type": "url",
-            "default": "/akamai/sure-route-test-object.html"
+            "default": 559458
         }
+        
+    
+        
+    
     }
 }
