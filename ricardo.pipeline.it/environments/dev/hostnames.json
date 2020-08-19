@@ -1,0 +1,8 @@
+[
+    {
+        "cnameFrom": "dev.ricardo.pipeline.it",
+        "cnameTo": "dev.ricardo.pipeline.it.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": null
+    }
+]

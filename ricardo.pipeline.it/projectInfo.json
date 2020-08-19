@@ -1,0 +1,17 @@
+{
+    "productId": "prd_Fresca",
+    "contractId": "ctr_C-1IE2OHM",
+    "groupIds": [
+        67223
+    ],
+    "environments": [
+        "dev",
+        "prod"
+    ],
+    "version": "0.7.2-RELEASE",
+    "isSecure": false,
+    "edgeGridConfig": {
+        "section": "gss"
+    },
+    "name": "ricardo.pipeline.it"
+}

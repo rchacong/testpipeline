@@ -1,0 +1,17 @@
+{
+    "name": "prod",
+    "propertyName": "prod.ricardo.pipeline.it",
+    "groupId": 67223,
+    "isSecure": false,
+    "propertyId": 642730,
+    "latestVersionInfo": {
+        "propertyVersion": 1,
+        "updatedByUser": "chz4w4mfhhxgqnyn",
+        "updatedDate": "2020-08-19T21:45:06Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "INACTIVE",
+        "productId": "prd_Fresca",
+        "ruleFormat": "v2020-03-04"
+    },
+    "suggestedRuleFormat": "v2020-03-04"
+}
