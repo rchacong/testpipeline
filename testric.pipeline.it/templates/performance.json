@@ -75,16 +75,6 @@
             }
         },
         {
-            "name": "sureRoute",
-            "options": {
-                "enabled": false,
-                "srDownloadLinkTitle": "",
-                "testObjectUrl": "${env.sureRouteTestObject}",
-                "enableCustomKey": false,
-                "customStatKey": "default"
-            }
-        },
-        {
             "name": "prefetch",
             "options": {
                 "enabled": true

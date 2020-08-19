@@ -2979,3 +2979,736 @@
 [2020-08-19T15:45:09.610] [INFO] devops-prov.template - looking at rule: Performance
 [2020-08-19T15:45:09.610] [INFO] devops-prov.template - looking at rule: Offload
 [2020-08-19T15:45:28.639] [INFO] devops-prov.factory - Using credentials file: '/Users/rchacong/.edgerc', section: 'papi'
+[2020-08-19T16:30:44.053] [INFO] devops-prov.factory - Using credentials file: '/Users/rchacong/.edgerc', section: 'papi'
+[2020-08-19T16:30:44.057] [INFO] devops-prov.project - Overriding edgegrid config with project default:  { section: 'gss' }
+[2020-08-19T16:30:44.058] [INFO] devops-prov.envionment - Merge environment: 'dev' in pipeline: 'testric.pipeline.it'
+[2020-08-19T16:30:44.062] [INFO] devops-prov.el - parsing: default
+[2020-08-19T16:30:44.062] [INFO] devops-prov.el - parsing: #include:performance.json
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: Performance
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: Compressible Objects
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: gzipResponse
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: ALWAYS
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: contentType
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: IS_ONE_OF
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: text/*
+[2020-08-19T16:30:44.063] [INFO] devops-prov.el - parsing: application/javascript
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/x-javascript
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/x-javascript*
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/json
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/x-json
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/*+json
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/*+xml
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/text
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/vnd.microsoft.icon
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/vnd-ms-fontobject
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/x-font-ttf
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/x-font-opentype
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/x-font-truetype
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/xmlfont/eot
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: application/xml
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: font/opentype
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: font/otf
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: font/eot
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: image/svg+xml
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: image/vnd.microsoft.icon
+[2020-08-19T16:30:44.064] [INFO] devops-prov.el - parsing: all
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: Compresses content to improve performance of clients with slow connections. Applies Last Mile Acceleration to requests when the returned object supports gzip compression.
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: enhancedAkamaiProtocol
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: http2
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: allowTransferEncoding
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: removeVary
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: sureRoute
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:30:44.065] [INFO] devops-prov.el - parsing: ${env.sureRouteTestObject}
+[2020-08-19T16:37:14.855] [INFO] devops-prov.factory - Using credentials file: '/Users/rchacong/.edgerc', section: 'papi'
+[2020-08-19T16:37:14.859] [INFO] devops-prov.project - Overriding edgegrid config with project default:  { section: 'gss' }
+[2020-08-19T16:37:14.860] [INFO] devops-prov.envionment - Merge environment: 'dev' in pipeline: 'testric.pipeline.it'
+[2020-08-19T16:37:14.863] [INFO] devops-prov.el - parsing: default
+[2020-08-19T16:37:14.863] [INFO] devops-prov.el - parsing: #include:performance.json
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: Performance
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: Compressible Objects
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: gzipResponse
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: ALWAYS
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: contentType
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: IS_ONE_OF
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: text/*
+[2020-08-19T16:37:14.864] [INFO] devops-prov.el - parsing: application/javascript
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/x-javascript
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/x-javascript*
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/json
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/x-json
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/*+json
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/*+xml
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/text
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/vnd.microsoft.icon
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/vnd-ms-fontobject
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/x-font-ttf
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/x-font-opentype
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/x-font-truetype
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/xmlfont/eot
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: application/xml
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: font/opentype
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: font/otf
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: font/eot
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: image/svg+xml
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: image/vnd.microsoft.icon
+[2020-08-19T16:37:14.865] [INFO] devops-prov.el - parsing: all
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: Compresses content to improve performance of clients with slow connections. Applies Last Mile Acceleration to requests when the returned object supports gzip compression.
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: enhancedAkamaiProtocol
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: http2
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: allowTransferEncoding
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: removeVary
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: prefetch
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: all
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: Improves the performance of delivering objects to end users. Behaviors in this rule are applied to all requests as appropriate.
+[2020-08-19T16:37:14.866] [INFO] devops-prov.el - parsing: #include:Offload.json
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: Offload
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: CSS and JavaScript
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: caching
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: MAX_AGE
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: 1d
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: prefreshCache
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: prefetchable
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: fileExtension
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: IS_ONE_OF
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: css
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: js
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: any
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: Overrides the default caching behavior for CSS and JavaScript objects that are cached on the edge server. Because these object types are dynamic, the TTL is brief.
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: Static Objects
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: caching
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: MAX_AGE
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: 7d
+[2020-08-19T16:37:14.867] [INFO] devops-prov.el - parsing: prefreshCache
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: prefetchable
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: fileExtension
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: IS_ONE_OF
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: aif
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: aiff
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: au
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: avi
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: bin
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: bmp
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: cab
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: carb
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: cct
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: cdf
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: class
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: doc
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: dcr
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: dtd
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: exe
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: flv
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: gcf
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: gff
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: gif
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: grv
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: hdml
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: hqx
+[2020-08-19T16:37:14.868] [INFO] devops-prov.el - parsing: ico
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: ini
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: jpeg
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: jpg
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: mov
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: mp3
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: nc
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: pct
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: pdf
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: png
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: ppc
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: pws
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: swa
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: swf
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: txt
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: vbs
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: w32
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: wav
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: wbmp
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: wml
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: wmlc
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: wmls
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: wmlsc
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: xsd
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: zip
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: pict
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: tif
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: tiff
+[2020-08-19T16:37:14.869] [INFO] devops-prov.el - parsing: mid
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: midi
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: ttf
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: eot
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: woff
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: woff2
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: otf
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: svg
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: svgz
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: webp
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: jxr
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: jar
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: jp2
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: any
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: Overrides the default caching behavior for images, music, and similar objects that are cached on the edge server. Because these object types are static, the TTL is long.
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: Uncacheable Responses
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: downstreamCache
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: TUNNEL_ORIGIN
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: cacheability
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: IS_NOT
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: CACHEABLE
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: all
+[2020-08-19T16:37:14.870] [INFO] devops-prov.el - parsing: Overrides the default downstream caching behavior for uncacheable object types. Instructs the edge server to pass Cache-Control and/or Expire headers from the origin to the client.
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: caching
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: NO_STORE
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: cacheError
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: 10s
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: downstreamCache
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: LESSER
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: ALLOW
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: CACHE_CONTROL_AND_EXPIRES
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: tieredDistribution
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: CH2
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: all
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: Controls caching, which offloads traffic away from the origin. Most objects types are not cached. However, the child rules override this behavior for certain subsets of requests.
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: origin
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: ORIGIN_HOSTNAME
+[2020-08-19T16:37:14.871] [INFO] devops-prov.el - parsing: REQUEST_HOST_HEADER
+[2020-08-19T16:37:14.872] [INFO] devops-prov.el - parsing: ${env.originHostname}
+[2020-08-19T16:37:14.872] [INFO] devops-prov.el - Replacing '${env.originHostname}' with: 'origin-dev.testric.pipeline.it'
+[2020-08-19T16:37:14.872] [INFO] devops-prov.el - parsing: CUSTOMER
+[2020-08-19T16:37:14.872] [INFO] devops-prov.el - parsing: PLATFORM_SETTINGS
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: cpCode
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: ${env.cpCode}
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - Replacing '${env.cpCode}' with: '559458'
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: allowPost
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: mPulse
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:14.873] [INFO] devops-prov.el - parsing: The behaviors in the Default Rule apply to all requests for the property hostname(s) unless another rule overrides the Default Rule settings.
+[2020-08-19T16:37:14.875] [INFO] devops-prov.envionment - resource hash:  59766aad203f26bcfd823f7387a1d61aa0f6cacca42b0d5bfb9f24d3f0a37c12
+[2020-08-19T16:37:14.876] [INFO] devops-prov.factory - need to create papi
+[2020-08-19T16:37:14.878] [INFO] devops-prov.openclient - Requesting: PUT /papi/v1/properties/642725/versions/1/rules?dryRun=true
+[2020-08-19T16:37:14.882] [INFO] devops-prov.edgegrid.auth - Unsigned authorization header: EG1-HMAC-SHA256 client_token=akab-kpebpp2mid64a5t7-h3cpuyl4gvjl5wy3;access_token=akab-zso2afqw2wqaw35k-4726gzpkdhz5a65c;timestamp=20200819T22:37:14+0000;nonce=71cbfcbb-a20c-4c9a-b884-967c66f78adc;
+
+[2020-08-19T16:37:14.882] [INFO] devops-prov.edgegrid.helpers - Body is "{"rules":{"name":"default","children":[{"name":"Performance","children":[{"name":"Compressible Objects","children":[],"behaviors":[{"name":"gzipResponse","options":{"behavior":"ALWAYS"}}],"criteria":[{"name":"contentType","options":{"matchCaseSensitive":false,"matchOperator":"IS_ONE_OF","matchWildcard":true,"values":["text/*","application/javascript","application/x-javascript","application/x-javascript*","application/json","application/x-json","application/*+json","application/*+xml","application/text","application/vnd.microsoft.icon","application/vnd-ms-fontobject","application/x-font-ttf","application/x-font-opentype","application/x-font-truetype","application/xmlfont/eot","application/xml","font/opentype","font/otf","font/eot","image/svg+xml","image/vnd.microsoft.icon"]}}],"criteriaMustSatisfy":"all","comments":"Compresses content to improve performance of clients with slow connections. Applies Last Mile Acceleration to requests when the returned object supports gzip compression."}],"behaviors":[{"name":"enhancedAkamaiProtocol","options":{"display":""}},{"name":"http2","options":{"enabled":""}},{"name":"allowTransferEncoding","options":{"enabled":true}},{"name":"removeVary","options":{"enabled":true}},{"name":"prefetch","options":{"enabled":true}}],"criteria":[],"criteriaMustSatisfy":"all","comments":"Improves the performance of delivering objects to end users. Behaviors in this rule are applied to all requests as appropriate."},{"name":"Offload","children":[{"name":"CSS and JavaScript","children":[],"behaviors":[{"name":"caching","options":{"behavior":"MAX_AGE","mustRevalidate":false,"ttl":"1d"}},{"name":"prefreshCache","options":{"enabled":true,"prefreshval":90}},{"name":"prefetchable","options":{"enabled":true}}],"criteria":[{"name":"fileExtension","options":{"matchCaseSensitive":false,"matchOperator":"IS_ONE_OF","values":["css","js"]}}],"criteriaMustSatisfy":"any","comments":"Overrides the default caching behavior for CSS and JavaScript objects that are cached on the edge server. Because these object types are dynamic, the TTL is brief."},{"name":"Static Objects","children":[],"behaviors":[{"name":"caching","options":{"behavior":"MAX_AGE","mustRevalidate":false,"ttl":"7d"}},{"name":"prefreshCache","options":{"enabled":true,"prefreshval":90}},{"name":"prefetchable","options":{"enabled":true}}],"criteria":[{"name":"fileExtension","options":{"matchCaseSensitive":false,"matchOperator":"IS_ONE_OF","values":["aif","aiff","au","avi","bin","bmp","cab","carb","cct","cdf","class","doc","dcr","dtd","exe","flv","gcf","gff","gif","grv","hdml","hqx","ico","ini","jpeg","jpg","mov","mp3","nc","pct","pdf","png","ppc","pws","swa","swf","txt","vbs","w32","wav","wbmp","wml","wmlc","wmls","wmlsc","xsd","zip","pict","tif","tiff","mid","midi","ttf","eot","woff","woff2","otf","svg","svgz","webp","jxr","jar","jp2"]}}],"criteriaMustSatisfy":"any","comments":"Overrides the default caching behavior for images, music, and similar objects that are cached on the edge server. Because these object types are static, the TTL is long."},{"name":"Uncacheable Responses","children":[],"behaviors":[{"name":"downstreamCache","options":{"behavior":"TUNNEL_ORIGIN"}}],"criteria":[{"name":"cacheability","options":{"matchOperator":"IS_NOT","value":"CACHEABLE"}}],"criteriaMustSatisfy":"all","comments":"Overrides the default downstream caching behavior for uncacheable object types. Instructs the edge server to pass Cache-Control and/or Expire headers from the origin to the client."}],"behaviors":[{"name":"caching","options":{"behavior":"NO_STORE"}},{"name":"cacheError","options":{"enabled":true,"preserveStale":true,"ttl":"10s"}},{"name":"downstreamCache","options":{"allowBehavior":"LESSER","behavior":"ALLOW","sendHeaders":"CACHE_CONTROL_AND_EXPIRES","sendPrivate":false}},{"name":"tieredDistribution","options":{"enabled":true,"tieredDistributionMap":"CH2"}}],"criteria":[],"criteriaMustSatisfy":"all","comments":"Controls caching, which offloads traffic away from the origin. Most objects types are not cached. However, the child rules override this behavior for certain subsets of requests."}],"behaviors":[{"name":"origin","options":{"cacheKeyHostname":"ORIGIN_HOSTNAME","compress":true,"enableTrueClientIp":false,"forwardHostHeader":"REQUEST_HOST_HEADER","hostname":"origin-dev.testric.pipeline.it","httpPort":80,"httpsPort":443,"originSni":true,"originType":"CUSTOMER","verificationMode":"PLATFORM_SETTINGS","originCertificate":"","ports":""}},{"name":"cpCode","options":{"value":{"id":559458}}},{"name":"allowPost","options":{"allowWithoutContentLength":false,"enabled":true}},{"name":"mPulse","options":{"apiKey":"","bufferSize":"","configOverride":"","enabled":true,"requirePci":false,"titleOptional":""}}],"options":{"is_secure":false},"variables":[],"comments":"The behaviors in the Default Rule apply to all requests for the property hostname(s) unless another rule overrides the Default Rule settings."}}"
+[2020-08-19T16:37:14.882] [DEBUG] devops-prov.edgegrid.helpers - PREPARED BODY LENGTH 4945
+[2020-08-19T16:37:14.883] [INFO] devops-prov.edgegrid.helpers - Data to sign: "PUT	https	akab-ps7mnpp3vtoeh57b-gynszgciystyz25r.luna.akamaiapis.net	/papi/v1/properties/642725/versions/1/rules?dryRun=true			EG1-HMAC-SHA256 client_token=akab-kpebpp2mid64a5t7-h3cpuyl4gvjl5wy3;access_token=akab-zso2afqw2wqaw35k-4726gzpkdhz5a65c;timestamp=20200819T22:37:14+0000;nonce=71cbfcbb-a20c-4c9a-b884-967c66f78adc;" 
+
+[2020-08-19T16:37:14.883] [INFO] devops-prov.edgegrid.helpers - Signing key: 4eiLPTYI0a/kQj9KmPwENH/DzjVzZM5BnmWRtudf4j0=
+
+[2020-08-19T16:37:14.883] [INFO] devops-prov.edgegrid.auth - Signed authorization header: EG1-HMAC-SHA256 client_token=akab-kpebpp2mid64a5t7-h3cpuyl4gvjl5wy3;access_token=akab-zso2afqw2wqaw35k-4726gzpkdhz5a65c;timestamp=20200819T22:37:14+0000;nonce=71cbfcbb-a20c-4c9a-b884-967c66f78adc;signature=9bCtzEqIQoIh3dXX57NMMc3Ip53OuHqjRbPOpX3m8UI=
+
+[2020-08-19T16:37:14.907] [INFO] devops-prov.edgegrid - request {
+  debugId: 1,
+  uri: 'https://akab-ps7mnpp3vtoeh57b-gynszgciystyz25r.luna.akamaiapis.net/papi/v1/properties/642725/versions/1/rules?dryRun=true',
+  method: 'PUT',
+  headers: {
+    'X-User-Agent': 'Akamai-PD; Version=0.7.2-RELEASE',
+    'User-Agent': 'Akamai-PD; Version=0.7.2-RELEASE',
+    'Content-Type': 'application/vnd.akamai.papirules.v2020-03-04+json',
+    Accept: 'application/vnd.akamai.papirules.v2020-03-04+json',
+    Authorization: 'EG1-HMAC-SHA256 client_token=akab-kpebpp2mid64a5t7-h3cpuyl4gvjl5wy3;access_token=akab-zso2afqw2wqaw35k-4726gzpkdhz5a65c;timestamp=20200819T22:37:14+0000;nonce=71cbfcbb-a20c-4c9a-b884-967c66f78adc;signature=9bCtzEqIQoIh3dXX57NMMc3Ip53OuHqjRbPOpX3m8UI=',
+    host: 'akab-ps7mnpp3vtoeh57b-gynszgciystyz25r.luna.akamaiapis.net',
+    'content-length': 4945
+  },
+  body: '{"rules":{"name":"default","children":[{"name":"Performance","children":[{"name":"Compressible Objects","children":[],"behaviors":[{"name":"gzipResponse","options":{"behavior":"ALWAYS"}}],"criteria":[{"name":"contentType","options":{"matchCaseSensitive":false,"matchOperator":"IS_ONE_OF","matchWildcard":true,"values":["text/*","application/javascript","application/x-javascript","application/x-javascript*","application/json","application/x-json","application/*+json","application/*+xml","application/text","application/vnd.microsoft.icon","application/vnd-ms-fontobject","application/x-font-ttf","application/x-font-opentype","application/x-font-truetype","application/xmlfont/eot","application/xml","font/opentype","font/otf","font/eot","image/svg+xml","image/vnd.microsoft.icon"]}}],"criteriaMustSatisfy":"all","comments":"Compresses content to improve performance of clients with slow connections. Applies Last Mile Acceleration to requests when the returned object supports gzip compression."}],"behaviors":[{"name":"enhancedAkamaiProtocol","options":{"display":""}},{"name":"http2","options":{"enabled":""}},{"name":"allowTransferEncoding","options":{"enabled":true}},{"name":"removeVary","options":{"enabled":true}},{"name":"prefetch","options":{"enabled":true}}],"criteria":[],"criteriaMustSatisfy":"all","comments":"Improves the performance of delivering objects to end users. Behaviors in this rule are applied to all requests as appropriate."},{"name":"Offload","children":[{"name":"CSS and JavaScript","children":[],"behaviors":[{"name":"caching","options":{"behavior":"MAX_AGE","mustRevalidate":false,"ttl":"1d"}},{"name":"prefreshCache","options":{"enabled":true,"prefreshval":90}},{"name":"prefetchable","options":{"enabled":true}}],"criteria":[{"name":"fileExtension","options":{"matchCaseSensitive":false,"matchOperator":"IS_ONE_OF","values":["css","js"]}}],"criteriaMustSatisfy":"any","comments":"Overrides the default caching behavior for CSS and JavaScript objects that are cached on the edge server. Because these object types are dynamic, the TTL is brief."},{"name":"Static Objects","children":[],"behaviors":[{"name":"caching","options":{"behavior":"MAX_AGE","mustRevalidate":false,"ttl":"7d"}},{"name":"prefreshCache","options":{"enabled":true,"prefreshval":90}},{"name":"prefetchable","options":{"enabled":true}}],"criteria":[{"name":"fileExtension","options":{"matchCaseSensitive":false,"matchOperator":"IS_ONE_OF","values":["aif","aiff","au","avi","bin","bmp","cab","carb","cct","cdf","class","doc","dcr","dtd","exe","flv","gcf","gff","gif","grv","hdml","hqx","ico","ini","jpeg","jpg","mov","mp3","nc","pct","pdf","png","ppc","pws","swa","swf","txt","vbs","w32","wav","wbmp","wml","wmlc","wmls","wmlsc","xsd","zip","pict","tif","tiff","mid","midi","ttf","eot","woff","woff2","otf","svg","svgz","webp","jxr","jar","jp2"]}}],"criteriaMustSatisfy":"any","comments":"Overrides the default caching behavior for images, music, and similar objects that are cached on the edge server. Because these object types are static, the TTL is long."},{"name":"Uncacheable Responses","children":[],"behaviors":[{"name":"downstreamCache","options":{"behavior":"TUNNEL_ORIGIN"}}],"criteria":[{"name":"cacheability","options":{"matchOperator":"IS_NOT","value":"CACHEABLE"}}],"criteriaMustSatisfy":"all","comments":"Overrides the default downstream caching behavior for uncacheable object types. Instructs the edge server to pass Cache-Control and/or Expire headers from the origin to the client."}],"behaviors":[{"name":"caching","options":{"behavior":"NO_STORE"}},{"name":"cacheError","options":{"enabled":true,"preserveStale":true,"ttl":"10s"}},{"name":"downstreamCache","options":{"allowBehavior":"LESSER","behavior":"ALLOW","sendHeaders":"CACHE_CONTROL_AND_EXPIRES","sendPrivate":false}},{"name":"tieredDistribution","options":{"enabled":true,"tieredDistributionMap":"CH2"}}],"criteria":[],"criteriaMustSatisfy":"all","comments":"Controls caching, which offloads traffic away from the origin. Most objects types are not cached. However, the child rules override this behavior for certain subsets of requests."}],"behaviors":[{"name":"origin","options":{"cacheKeyHostname":"ORIGIN_HOSTNAME","compress":true,"enableTrueClientIp":false,"forwardHostHeader":"REQUEST_HOST_HEADER","hostname":"origin-dev.testric.pipeline.it","httpPort":80,"httpsPort":443,"originSni":true,"originType":"CUSTOMER","verificationMode":"PLATFORM_SETTINGS","originCertificate":"","ports":""}},{"name":"cpCode","options":{"value":{"id":559458}}},{"name":"allowPost","options":{"allowWithoutContentLength":false,"enabled":true}},{"name":"mPulse","options":{"apiKey":"","bufferSize":"","configOverride":"","enabled":true,"requirePci":false,"titleOptional":""}}],"options":{"is_secure":false},"variables":[],"comments":"The behaviors in the Default Rule apply to all requests for the property hostname(s) unless another rule overrides the Default Rule settings."}}'
+}
+[2020-08-19T16:37:19.776] [INFO] devops-prov.edgegrid - response {
+  debugId: 1,
+  headers: {
+    'x-ids-session-id': '13b55601-23e5-41c0-9dc3-5458aeadbe06, 13b55601-23e5-41c0-9dc3-5458aeadbe06',
+    'papi-cache-status': 'CACHE_MISS',
+    'x-limit-elements-per-property-limit': '3000',
+    'x-limit-elements-per-property-remaining': '2975',
+    'x-limit-max-nested-rules-limit': '6',
+    'x-limit-max-nested-rules-remaining': '5',
+    'content-language': 'en-US',
+    link: '<https://akab-ps7mnpp3vtoeh57b-gynszgciystyz25r.luna.akamaiapis.net/papi/v0/schemas/products/prd_Fresca/v2020-03-04>; rel="describedby"',
+    etag: '"252195b459043240ac0e918cdb6809dad4b00d14-gzip"',
+    vary: 'Accept-Encoding',
+    'content-type': 'application/vnd.akamai.papirules.v2020-03-04+json;charset=UTF-8',
+    'x-trace-id': '56dc5f3da99b2849',
+    'content-length': '8170',
+    date: 'Wed, 19 Aug 2020 22:37:19 GMT',
+    connection: 'close'
+  },
+  statusCode: 200,
+  body: '{\n' +
+    '  "accountId" : "act_B-C-1IE2OH8",\n' +
+    '  "contractId" : "ctr_C-1IE2OHM",\n' +
+    '  "groupId" : "grp_67223",\n' +
+    '  "propertyId" : "prp_642725",\n' +
+    '  "propertyName" : "dev.testric.pipeline.it",\n' +
+    '  "propertyVersion" : 1,\n' +
+    '  "etag" : "252195b459043240ac0e918cdb6809dad4b00d14",\n' +
+    '  "rules" : {\n' +
+    '    "name" : "default",\n' +
+    '    "children" : [ {\n' +
+    '      "name" : "Performance",\n' +
+    '      "children" : [ {\n' +
+    '        "name" : "Compressible Objects",\n' +
+    '        "children" : [ ],\n' +
+    '        "behaviors" : [ {\n' +
+    '          "name" : "gzipResponse",\n' +
+    '          "options" : {\n' +
+    '            "behavior" : "ALWAYS"\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteria" : [ {\n' +
+    '          "name" : "contentType",\n' +
+    '          "options" : {\n' +
+    '            "matchCaseSensitive" : false,\n' +
+    '            "matchOperator" : "IS_ONE_OF",\n' +
+    '            "matchWildcard" : true,\n' +
+    '            "values" : [ "text/*", "application/javascript", "application/x-javascript", "application/x-javascript*", "application/json", "application/x-json", "application/*+json", "application/*+xml", "application/text", "application/vnd.microsoft.icon", "application/vnd-ms-fontobject", "application/x-font-ttf", "application/x-font-opentype", "application/x-font-truetype", "application/xmlfont/eot", "application/xml", "font/opentype", "font/otf", "font/eot", "image/svg+xml", "image/vnd.microsoft.icon" ]\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteriaMustSatisfy" : "all",\n' +
+    '        "comments" : "Compresses content to improve performance of clients with slow connections. Applies Last Mile Acceleration to requests when the returned object supports gzip compression."\n' +
+    '      } ],\n' +
+    '      "behaviors" : [ {\n' +
+    '        "name" : "enhancedAkamaiProtocol",\n' +
+    '        "options" : {\n' +
+    '          "display" : ""\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "http2",\n' +
+    '        "options" : {\n' +
+    '          "enabled" : ""\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "allowTransferEncoding",\n' +
+    '        "options" : {\n' +
+    '          "enabled" : true\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "removeVary",\n' +
+    '        "options" : {\n' +
+    '          "enabled" : true\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "prefetch",\n' +
+    '        "options" : {\n' +
+    '          "enabled" : true\n' +
+    '        }\n' +
+    '      } ],\n' +
+    '      "criteria" : [ ],\n' +
+    '      "criteriaMustSatisfy" : "all",\n' +
+    '      "comments" : "Improves the performance of delivering objects to end users. Behaviors in this rule are applied to all requests as appropriate."\n' +
+    '    }, {\n' +
+    '      "name" : "Offload",\n' +
+    '      "children" : [ {\n' +
+    '        "name" : "CSS and JavaScript",\n' +
+    '        "children" : [ ],\n' +
+    '        "behaviors" : [ {\n' +
+    '          "name" : "caching",\n' +
+    '          "options" : {\n' +
+    '            "behavior" : "MAX_AGE",\n' +
+    '            "mustRevalidate" : false,\n' +
+    '            "ttl" : "1d"\n' +
+    '          }\n' +
+    '        }, {\n' +
+    '          "name" : "prefreshCache",\n' +
+    '          "options" : {\n' +
+    '            "enabled" : true,\n' +
+    '            "prefreshval" : 90\n' +
+    '          }\n' +
+    '        }, {\n' +
+    '          "name" : "prefetchable",\n' +
+    '          "options" : {\n' +
+    '            "enabled" : true\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteria" : [ {\n' +
+    '          "name" : "fileExtension",\n' +
+    '          "options" : {\n' +
+    '            "matchCaseSensitive" : false,\n' +
+    '            "matchOperator" : "IS_ONE_OF",\n' +
+    '            "values" : [ "css", "js" ]\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteriaMustSatisfy" : "any",\n' +
+    '        "comments" : "Overrides the default caching behavior for CSS and JavaScript objects that are cached on the edge server. Because these object types are dynamic, the TTL is brief."\n' +
+    '      }, {\n' +
+    '        "name" : "Static Objects",\n' +
+    '        "children" : [ ],\n' +
+    '        "behaviors" : [ {\n' +
+    '          "name" : "caching",\n' +
+    '          "options" : {\n' +
+    '            "behavior" : "MAX_AGE",\n' +
+    '            "mustRevalidate" : false,\n' +
+    '            "ttl" : "7d"\n' +
+    '          }\n' +
+    '        }, {\n' +
+    '          "name" : "prefreshCache",\n' +
+    '          "options" : {\n' +
+    '            "enabled" : true,\n' +
+    '            "prefreshval" : 90\n' +
+    '          }\n' +
+    '        }, {\n' +
+    '          "name" : "prefetchable",\n' +
+    '          "options" : {\n' +
+    '            "enabled" : true\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteria" : [ {\n' +
+    '          "name" : "fileExtension",\n' +
+    '          "options" : {\n' +
+    '            "matchCaseSensitive" : false,\n' +
+    '            "matchOperator" : "IS_ONE_OF",\n' +
+    '            "values" : [ "aif", "aiff", "au", "avi", "bin", "bmp", "cab", "carb", "cct", "cdf", "class", "doc", "dcr", "dtd", "exe", "flv", "gcf", "gff", "gif", "grv", "hdml", "hqx", "ico", "ini", "jpeg", "jpg", "mov", "mp3", "nc", "pct", "pdf", "png", "ppc", "pws", "swa", "swf", "txt", "vbs", "w32", "wav", "wbmp", "wml", "wmlc", "wmls", "wmlsc", "xsd", "zip", "pict", "tif", "tiff", "mid", "midi", "ttf", "eot", "woff", "woff2", "otf", "svg", "svgz", "webp", "jxr", "jar", "jp2" ]\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteriaMustSatisfy" : "any",\n' +
+    '        "comments" : "Overrides the default caching behavior for images, music, and similar objects that are cached on the edge server. Because these object types are static, the TTL is long."\n' +
+    '      }, {\n' +
+    '        "name" : "Uncacheable Responses",\n' +
+    '        "children" : [ ],\n' +
+    '        "behaviors" : [ {\n' +
+    '          "name" : "downstreamCache",\n' +
+    '          "options" : {\n' +
+    '            "behavior" : "TUNNEL_ORIGIN"\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteria" : [ {\n' +
+    '          "name" : "cacheability",\n' +
+    '          "options" : {\n' +
+    '            "matchOperator" : "IS_NOT",\n' +
+    '            "value" : "CACHEABLE"\n' +
+    '          }\n' +
+    '        } ],\n' +
+    '        "criteriaMustSatisfy" : "all",\n' +
+    '        "comments" : "Overrides the default downstream caching behavior for uncacheable object types. Instructs the edge server to pass Cache-Control and/or Expire headers from the origin to the client."\n' +
+    '      } ],\n' +
+    '      "behaviors" : [ {\n' +
+    '        "name" : "caching",\n' +
+    '        "options" : {\n' +
+    '          "behavior" : "NO_STORE"\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "cacheError",\n' +
+    '        "options" : {\n' +
+    '          "enabled" : true,\n' +
+    '          "preserveStale" : true,\n' +
+    '          "ttl" : "10s"\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "downstreamCache",\n' +
+    '        "options" : {\n' +
+    '          "allowBehavior" : "LESSER",\n' +
+    '          "behavior" : "ALLOW",\n' +
+    '          "sendHeaders" : "CACHE_CONTROL_AND_EXPIRES",\n' +
+    '          "sendPrivate" : false\n' +
+    '        }\n' +
+    '      }, {\n' +
+    '        "name" : "tieredDistribution",\n' +
+    '        "options" : {\n' +
+    '          "enabled" : true,\n' +
+    '          "tieredDistributionMap" : "CH2"\n' +
+    '        }\n' +
+    '      } ],\n' +
+    '      "criteria" : [ ],\n' +
+    '      "criteriaMustSatisfy" : "all",\n' +
+    '      "comments" : "Controls caching, which offloads traffic away from the origin. Most objects types are not cached. However, the child rules override this behavior for certain subsets of requests."\n' +
+    '    } ],\n' +
+    '    "behaviors" : [ {\n' +
+    '      "name" : "origin",\n' +
+    '      "options" : {\n' +
+    '        "cacheKeyHostname" : "ORIGIN_HOSTNAME",\n' +
+    '        "compress" : true,\n' +
+    '        "enableTrueClientIp" : false,\n' +
+    '        "forwardHostHeader" : "REQUEST_HOST_HEADER",\n' +
+    '        "hostname" : "origin-dev.testric.pipeline.it",\n' +
+    '        "httpPort" : 80,\n' +
+    '        "httpsPort" : 443,\n' +
+    '        "originSni" : true,\n' +
+    '        "originType" : "CUSTOMER",\n' +
+    '        "verificationMode" : "PLATFORM_SETTINGS",\n' +
+    '        "originCertificate" : "",\n' +
+    '        "ports" : ""\n' +
+    '      }\n' +
+    '    }, {\n' +
+    '      "name" : "cpCode",\n' +
+    '      "options" : {\n' +
+    '        "value" : {\n' +
+    '          "id" : 559458\n' +
+    '        }\n' +
+    '      }\n' +
+    '    }, {\n' +
+    '      "name" : "allowPost",\n' +
+    '      "options" : {\n' +
+    '        "allowWithoutContentLength" : false,\n' +
+    '        "enabled" : true\n' +
+    '      }\n' +
+    '    }, {\n' +
+    '      "name" : "mPulse",\n' +
+    '      "options" : {\n' +
+    '        "apiKey" : "",\n' +
+    '        "bufferSize" : "",\n' +
+    '        "configOverride" : "",\n' +
+    '        "enabled" : true,\n' +
+    '        "requirePci" : false,\n' +
+    '        "titleOptional" : ""\n' +
+    '      }\n' +
+    '    } ],\n' +
+    '    "options" : {\n' +
+    '      "is_secure" : false\n' +
+    '    },\n' +
+    '    "variables" : [ ],\n' +
+    '    "comments" : "The behaviors in the Default Rule apply to all requests for the property hostname(s) unless another rule overrides the Default Rule settings."\n' +
+    '  },\n' +
+    '  "warnings" : [ {\n' +
+    '    "type" : "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",\n' +
+    '    "errorLocation" : "#/rules/behaviors/0",\n' +
+    '    "detail" : "If your `Origin Server` uses HTTPS, make sure to follow <a href=\\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\\" target=\\"_blank\\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin\'s certificate."\n' +
+    '  } ],\n' +
+    '  "ruleFormat" : "v2020-03-04"\n' +
+    '}'
+}
+[2020-08-19T16:37:19.776] [INFO] devops-prov.openclient - Status code:  200
+[2020-08-19T16:37:19.776] [INFO] devops-prov.openclient - Body:  {
+  "accountId" : "act_B-C-1IE2OH8",
+  "contractId" : "ctr_C-1IE2OHM",
+  "groupId" : "grp_67223",
+  "propertyId" : "prp_642725",
+  "propertyName" : "dev.testric.pipeline.it",
+  "propertyVersion" : 1,
+  "etag" : "252195b459043240ac0e918cdb6809dad4b00d14",
+  "rules" : {
+    "name" : "default",
+    "children" : [ {
+      "name" : "Performance",
+      "children" : [ {
+        "name" : "Compressible Objects",
+        "children" : [ ],
+        "behaviors" : [ {
+          "name" : "gzipResponse",
+          "options" : {
+            "behavior" : "ALWAYS"
+          }
+        } ],
+        "criteria" : [ {
+          "name" : "contentType",
+          "options" : {
+            "matchCaseSensitive" : false,
+            "matchOperator" : "IS_ONE_OF",
+            "matchWildcard" : true,
+            "values" : [ "text/*", "application/javascript", "application/x-javascript", "application/x-javascript*", "application/json", "application/x-json", "application/*+json", "application/*+xml", "application/text", "application/vnd.microsoft.icon", "application/vnd-ms-fontobject", "application/x-font-ttf", "application/x-font-opentype", "application/x-font-truetype", "application/xmlfont/eot", "application/xml", "font/opentype", "font/otf", "font/eot", "image/svg+xml", "image/vnd.microsoft.icon" ]
+          }
+        } ],
+        "criteriaMustSatisfy" : "all",
+        "comments" : "Compresses content to improve performance of clients with slow connections. Applies Last Mile Acceleration to requests when the returned object supports gzip compression."
+      } ],
+      "behaviors" : [ {
+        "name" : "enhancedAkamaiProtocol",
+        "options" : {
+          "display" : ""
+        }
+      }, {
+        "name" : "http2",
+        "options" : {
+          "enabled" : ""
+        }
+      }, {
+        "name" : "allowTransferEncoding",
+        "options" : {
+          "enabled" : true
+        }
+      }, {
+        "name" : "removeVary",
+        "options" : {
+          "enabled" : true
+        }
+      }, {
+        "name" : "prefetch",
+        "options" : {
+          "enabled" : true
+        }
+      } ],
+      "criteria" : [ ],
+      "criteriaMustSatisfy" : "all",
+      "comments" : "Improves the performance of delivering objects to end users. Behaviors in this rule are applied to all requests as appropriate."
+    }, {
+      "name" : "Offload",
+      "children" : [ {
+        "name" : "CSS and JavaScript",
+        "children" : [ ],
+        "behaviors" : [ {
+          "name" : "caching",
+          "options" : {
+            "behavior" : "MAX_AGE",
+            "mustRevalidate" : false,
+            "ttl" : "1d"
+          }
+        }, {
+          "name" : "prefreshCache",
+          "options" : {
+            "enabled" : true,
+            "prefreshval" : 90
+          }
+        }, {
+          "name" : "prefetchable",
+          "options" : {
+            "enabled" : true
+          }
+        } ],
+        "criteria" : [ {
+          "name" : "fileExtension",
+          "options" : {
+            "matchCaseSensitive" : false,
+            "matchOperator" : "IS_ONE_OF",
+            "values" : [ "css", "js" ]
+          }
+        } ],
+        "criteriaMustSatisfy" : "any",
+        "comments" : "Overrides the default caching behavior for CSS and JavaScript objects that are cached on the edge server. Because these object types are dynamic, the TTL is brief."
+      }, {
+        "name" : "Static Objects",
+        "children" : [ ],
+        "behaviors" : [ {
+          "name" : "caching",
+          "options" : {
+            "behavior" : "MAX_AGE",
+            "mustRevalidate" : false,
+            "ttl" : "7d"
+          }
+        }, {
+          "name" : "prefreshCache",
+          "options" : {
+            "enabled" : true,
+            "prefreshval" : 90
+          }
+        }, {
+          "name" : "prefetchable",
+          "options" : {
+            "enabled" : true
+          }
+        } ],
+        "criteria" : [ {
+          "name" : "fileExtension",
+          "options" : {
+            "matchCaseSensitive" : false,
+            "matchOperator" : "IS_ONE_OF",
+            "values" : [ "aif", "aiff", "au", "avi", "bin", "bmp", "cab", "carb", "cct", "cdf", "class", "doc", "dcr", "dtd", "exe", "flv", "gcf", "gff", "gif", "grv", "hdml", "hqx", "ico", "ini", "jpeg", "jpg", "mov", "mp3", "nc", "pct", "pdf", "png", "ppc", "pws", "swa", "swf", "txt", "vbs", "w32", "wav", "wbmp", "wml", "wmlc", "wmls", "wmlsc", "xsd", "zip", "pict", "tif", "tiff", "mid", "midi", "ttf", "eot", "woff", "woff2", "otf", "svg", "svgz", "webp", "jxr", "jar", "jp2" ]
+          }
+        } ],
+        "criteriaMustSatisfy" : "any",
+        "comments" : "Overrides the default caching behavior for images, music, and similar objects that are cached on the edge server. Because these object types are static, the TTL is long."
+      }, {
+        "name" : "Uncacheable Responses",
+        "children" : [ ],
+        "behaviors" : [ {
+          "name" : "downstreamCache",
+          "options" : {
+            "behavior" : "TUNNEL_ORIGIN"
+          }
+        } ],
+        "criteria" : [ {
+          "name" : "cacheability",
+          "options" : {
+            "matchOperator" : "IS_NOT",
+            "value" : "CACHEABLE"
+          }
+        } ],
+        "criteriaMustSatisfy" : "all",
+        "comments" : "Overrides the default downstream caching behavior for uncacheable object types. Instructs the edge server to pass Cache-Control and/or Expire headers from the origin to the client."
+      } ],
+      "behaviors" : [ {
+        "name" : "caching",
+        "options" : {
+          "behavior" : "NO_STORE"
+        }
+      }, {
+        "name" : "cacheError",
+        "options" : {
+          "enabled" : true,
+          "preserveStale" : true,
+          "ttl" : "10s"
+        }
+      }, {
+        "name" : "downstreamCache",
+        "options" : {
+          "allowBehavior" : "LESSER",
+          "behavior" : "ALLOW",
+          "sendHeaders" : "CACHE_CONTROL_AND_EXPIRES",
+          "sendPrivate" : false
+        }
+      }, {
+        "name" : "tieredDistribution",
+        "options" : {
+          "enabled" : true,
+          "tieredDistributionMap" : "CH2"
+        }
+      } ],
+      "criteria" : [ ],
+      "criteriaMustSatisfy" : "all",
+      "comments" : "Controls caching, which offloads traffic away from the origin. Most objects types are not cached. However, the child rules override this behavior for certain subsets of requests."
+    } ],
+    "behaviors" : [ {
+      "name" : "origin",
+      "options" : {
+        "cacheKeyHostname" : "ORIGIN_HOSTNAME",
+        "compress" : true,
+        "enableTrueClientIp" : false,
+        "forwardHostHeader" : "REQUEST_HOST_HEADER",
+        "hostname" : "origin-dev.testric.pipeline.it",
+        "httpPort" : 80,
+        "httpsPort" : 443,
+        "originSni" : true,
+        "originType" : "CUSTOMER",
+        "verificationMode" : "PLATFORM_SETTINGS",
+        "originCertificate" : "",
+        "ports" : ""
+      }
+    }, {
+      "name" : "cpCode",
+      "options" : {
+        "value" : {
+          "id" : 559458
+        }
+      }
+    }, {
+      "name" : "allowPost",
+      "options" : {
+        "allowWithoutContentLength" : false,
+        "enabled" : true
+      }
+    }, {
+      "name" : "mPulse",
+      "options" : {
+        "apiKey" : "",
+        "bufferSize" : "",
+        "configOverride" : "",
+        "enabled" : true,
+        "requirePci" : false,
+        "titleOptional" : ""
+      }
+    } ],
+    "options" : {
+      "is_secure" : false
+    },
+    "variables" : [ ],
+    "comments" : "The behaviors in the Default Rule apply to all requests for the property hostname(s) unless another rule overrides the Default Rule settings."
+  },
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+    "errorLocation" : "#/rules/behaviors/0",
+    "detail" : "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+  } ],
+  "ruleFormat" : "v2020-03-04"
+}
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: origin
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: ORIGIN_HOSTNAME
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: REQUEST_HOST_HEADER
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: ${env.originHostname}
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - Replacing '${env.originHostname}' with: 'origin-dev.testric.pipeline.it'
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: CUSTOMER
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: PLATFORM_SETTINGS
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: 
+[2020-08-19T16:37:19.778] [INFO] devops-prov.el - parsing: 

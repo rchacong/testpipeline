@@ -13,5 +13,37 @@
         "productId": "prd_Fresca",
         "ruleFormat": "v2020-03-04"
     },
-    "suggestedRuleFormat": "v2020-03-04"
+    "suggestedRuleFormat": "v2020-03-04",
+    "environmentHash": "59766aad203f26bcfd823f7387a1d61aa0f6cacca42b0d5bfb9f24d3f0a37c12",
+    "ruleTreeHash": "0fc381d37f907aeb4d92956bb7d6b46f6528615fc25d228a0fb3adf5a1ada089",
+    "lastValidatedHash": "59766aad203f26bcfd823f7387a1d61aa0f6cacca42b0d5bfb9f24d3f0a37c12",
+    "lastSaveWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/0",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                        "compress": true,
+                        "enableTrueClientIp": false,
+                        "forwardHostHeader": "REQUEST_HOST_HEADER",
+                        "hostname": "origin-dev.testric.pipeline.it",
+                        "httpPort": 80,
+                        "httpsPort": 443,
+                        "originSni": true,
+                        "originType": "CUSTOMER",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "originCertificate": "",
+                        "ports": ""
+                    }
+                }
+            },
+            "detail": "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+        }
+    ],
+    "lastSaveErrors": []
 }
